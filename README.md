@@ -29,21 +29,6 @@ The DVD Rental dataset is a sample database provided by PostgreSQL. It contains 
     pg_restore -U postgres -d dvdrental dvdrental.tar
     ```
 
-## Repository Structure
-- `sql/`: Contains SQL scripts for various exercises and queries.
-- `docs/`: Documentation and resources for learning PostgreSQL.
-- `examples/`: Example queries and use cases.
-
-## Usage
-1. Navigate to the `sql/` directory:
-    ```sh
-    cd sql
-    ```
-2. Run the SQL scripts using psql or any PostgreSQL client:
-    ```sh
-    psql -U postgres -d dvdrental -f script_name.sql
-    ```
-
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
